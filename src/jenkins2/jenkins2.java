@@ -2,15 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package jenkins;
+package jenkins2;
 /**
  *
  * @author dc1415daw2
  */
 import java.io.*;
-public class Jenkins {
+public class jenkins2 {
     /**
      * @param args the command line arguments
+     * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
         File f = new File("index.html");
